@@ -108,7 +108,7 @@ func modify_skin() error {
 			fmt.Print("输入文件的完整名字，且需要在当前目录（例xmilkcandy.png）")
 			var file_name string
 			fmt.Scanln(&file_name)
-			fmt.Printf(Logo2+Logo3+"%-30s"+Logo3+Logo2+"\n", "1.头翻转")
+			fmt.Printf(Logo2+Logo3+"%-30s"+Logo3+Logo2+"\n", "1.头翻转"+"\n")
 			fmt.Print("输入序号:")
 			fmt.Scanln(&choice_2)
 			switch choice_2 {
